@@ -1,0 +1,149 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(0, 224, 228);
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.content-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.slide-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.slide-text p {
+  font-size: 22px;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.slider-container {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.slide {
+  display: none;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.slide.active {
+  display: block;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 20px;
+}
+
+.pregunta {
+  font-size: 20px;
+}
+
+ul {
+  background-color: rgba(0, 0, 0, 0.5);
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: #333;
+  color: #fff;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+ul li p {
+  margin-top: 12px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+label {
+  font-size: 1.1em;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+button:nth-of-type(1) {
+  left: 0;
+}
+
+button:nth-of-type(2) {
+  right: 0;
+}
+
+/* Download Container */
+.download-container {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+.download-container h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.download-container p {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.download-container a  {
+  background-color: orange;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.download-container a:hover {
+  background-color: rgb(235, 152, 0);
+}
